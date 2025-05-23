@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+}
+
+.btn-linear-gradient:hover{
+  background: linear-gradient(90deg, #272643 0%, #6F7BF7 100%);
+}
+
+.logout-linear-gradient:hover{
+  background: linear-gradient(90deg, #EB4335 0%, #85261E 100%);
+}
+
